@@ -1,11 +1,18 @@
 body {
   background-color: aquamarine;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
+}
+
+nav {
+  margin: 10px 100px;
+  justify-content: center;
 }
 
 li {
@@ -15,6 +22,19 @@ li {
   text-align: center;
 }
 
+.content {
+  margin: 0 100px;
+}
+
 .croissant {
   margin: 10px auto;
+  width: 300px;
+  max-width: 100%;
+  display: inline-block;
+  margin: 0 90px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
 }
